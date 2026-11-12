@@ -1,0 +1,36 @@
+# Shared booking grid for the Harrow Lab weekly reading group.
+#
+# Slot indices are 0-based. Each slot is one fixed-length atomic interval of
+# `slot_minutes`, and the first slot of a day starts at `day_start`. A booking
+# with `slots: N` occupies the consecutive slots
+#   start_slot, start_slot + 1, ..., start_slot + N - 1.
+grid:
+  day_start: "09:00"
+  slot_minutes: 25
+  slots_per_day: 18
+
+bookings:
+  Tuesday:
+    - member: Priya Raman
+      start_slot: 2
+      slots: 4
+      topic: Sparse attention kernels
+    - member: Jonas Feld
+      start_slot: 14
+      slots: 4
+      topic: Retrieval-agent evaluation
+  Thursday:
+    - member: Mei Lin
+      start_slot: 6
+      slots: 4
+      topic: Diffusion priors for inverse problems
+    - member: Sana Okafor
+      start_slot: 10
+      slots: 3
+      topic: Calibration under distribution shift
+
+joint_block:
+  label: Joint discussion
+  day: Thursday
+  start_slot: 13
+  slots: 5
