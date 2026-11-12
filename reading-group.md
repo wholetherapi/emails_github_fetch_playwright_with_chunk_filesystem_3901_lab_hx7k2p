@@ -10,8 +10,8 @@ the raw booking data lives in `_data/reading_group.yml`.
 
 | Member | Day | Time |
 |--------|-----|------|
-| Priya Raman | Tuesday | _TBD_ |
-| Jonas Feld | Tuesday | _TBD_ |
-| Mei Lin | Thursday | _TBD_ |
-| Sana Okafor | Thursday | _TBD_ |
-| Joint discussion | Thursday | _TBD_ |
+| Priya Raman | Tuesday | 9:50 AM to 11:05 AM |
+| Jonas Feld | Tuesday | 2:50 PM to 4:05 PM |
+| Mei Lin | Thursday | 11:30 AM to 12:45 PM |
+| Sana Okafor | Thursday | 1:10 PM to 2:00 PM |
+| Joint discussion | Thursday | 2:25 PM to 4:05 PM |
